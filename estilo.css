@@ -1,6 +1,13 @@
 body {
-  background-color: blue;
+    background-color: aqua;
 }
 h1 {
-  text-align: center;
+    text-align: center;
+}
+.menuprincipal {
+position: absolute;
+background-color: rgb(177, 107, 243);
+width: 100%;
+height: 100px;
+top: 0pt;
 }
