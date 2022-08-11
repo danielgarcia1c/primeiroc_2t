@@ -1,25 +1,58 @@
 body {
-  background: gray;
+  background: rgb(133, 108, 100)
 }
 h1 {
   text-align: center;
 }
-/*
-  position: absolute;
-  position: fixed;
-  position: sticky;
-*/
 .caixa1 {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  background: orange;
-  left: 50px;
+   position: relative;
+   background: rgb(161, 230, 218);
+   width: 200px;
+   height: 200px;
+   color: #FFFFFF;
+   left: 50%;
 }
 .menuPrincipal {
   position: absolute;
-  background: rgb(179, 184, 255);
+  background: rgb(158, 104, 155);
   width: 100%;
+  height: 45px;
+  top: 0pt;
+  left: 0;
+}
+nav ul {  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: 'Courier New', Courier, monospace;
+}
+li a:hover{
+  background: rgb(219, 209, 151);
+  color: black;
+} 
+.imgEstudo {
+  position: absolute;
+  width: 300px;
   height: 100px;
-  top: 0;
+  background-color: rgb(255, 140, 0);
+  top: 150px;
+  border: 5px;
+  border-color: black;
+}
+#bola {
+  position: relative;
+  width: 33%;
+  left: 35%;
+  top:2%
 }
