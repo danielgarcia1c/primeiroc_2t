@@ -82,3 +82,32 @@ li a:hover{
 .conteudo {
   color: #FFFFFF;
 }
+.imgformacao {
+  position: absolute;
+  width: 1100px;
+  height: 400px;
+  background: x #c9ebec;
+  top: 45px;
+  left: 0;
+  margin: 60px;
+  border-color: rgb(235, 240, 235);
+  border-width: 10px;
+  border-style: solid;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.conteudo3 {
+  position: absolute;
+  text-align: center;
+  color: #FFFFFF;
+  top: 30px;
+  left: 30%;
+
+}
+.conteudo2{
+  position: absolute;
+  text-align: center;
+  color: #FFFFFF;
+  top: 550px;
+}
